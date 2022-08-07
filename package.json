@@ -1,0 +1,32 @@
+{
+  "name": "powerade-scraper",
+  "version": "1.0.0",
+  "description": "Scrape smiths.com and get powerade prices to then graph and find trends as to when they go on sale.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -L ./bin/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenshow/powerade-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenshow/powerade-scraper/issues"
+  },
+  "homepage": "https://github.com/stevenshow/powerade-scraper#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.19",
+    "pretty": "^2.0.0"
+  }
+}
